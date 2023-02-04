@@ -1,0 +1,31 @@
+.patrat1 {
+    width: 200px;
+    height: 200px;
+    background-color: mediumvioletred;
+    position: fixed;
+    top: 0;
+}
+.patrat2 {
+    width: 200px;
+    height: 200px;
+    background-color: mediumpurple;
+    position: fixed;
+    right: 0;
+}
+
+.patrat3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+}
+
+.patrat4{
+    width: 200px;
+    height: 200px;
+    background-color:yellow;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
