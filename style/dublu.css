@@ -1,0 +1,29 @@
+.p1 {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+}
+.p2 {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: fixed;
+    right: 0;
+}
+.p3 {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+}
+.p4 {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: fixed;
+}
