@@ -14,7 +14,7 @@ formElement.addEventListener('submit', (e) => {
     data.push({nume: name,rasa:ras,varsta:age})
     result.textContent = `Numele cainelui tau este ${data[data.length-1].nume} de rasa ${data[data.length-1].rasa} cu varsta ${(data[data.length-1].varsta) * 7}`
     });
-
+//calculator de creditare
 
 
 
