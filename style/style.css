@@ -1,6 +1,14 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
 .container{
     text-align: center;
 }
-.iner{
-    margin-left: 15px
+
+.text{
+    text-align: right;
+}
+.credit{
+    text-align: center;
 }
