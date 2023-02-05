@@ -37,3 +37,29 @@ body.addEventListener('keydown', (event) => {
     }
 })
 
+window.onload = () => {
+    const button = document.querySelector("#btn");
+    button.addEventListener("click", calculateBMI);
+};
+
+const calculateBMI = () => {
+    const height = parseInt(document.querySelector("#height").value);
+    const weight = parseInt(document.querySelector("#weight").value);
+    const result = document.querySelector("#result");
+
+    if (height === "" || isNaN(height)) {
+        result.innerHTML = "Error Height!"
+    } else if (weight === "" || isNaN(weight)) {
+        result.innerHTML = "Error Weight!"
+    } else {
+        const bmi = (weight / ((height * height) / 10000)).toFixed(2);
+        if (bmi < 18.6) {
+            result.innerHTML = `Under Weight : <span>${bmi}</span>`;
+        } else if (bmi >= 18.6 && bmi < 24.9) {
+            result.innerHTML = `Normal : <span>${bmi}</span>`;
+        } else {
+            result.innerHTML = `Over Weight : <span>${bmi}</span>`;
+        }
+    }
+}
+
