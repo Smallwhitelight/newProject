@@ -1,14 +1,17 @@
-body{
+/*body{
     display: flex;
     justify-content: space-around;
-}
+}*/
 .container{
-    text-align: center;
+    text-align: left;
+
 }
 
 .text{
-    text-align: right;
+    text-align: left;
+    display: flex;
+
 }
-.credit{
-    text-align: center;
+.iner{
+    text-align: left;
 }
