@@ -1,6 +1,17 @@
+/*body{
+    display: flex;
+    justify-content: space-around;
+}*/
 .container{
-    text-align: center;
+    text-align: left;
+
+}
+
+.text{
+    text-align: left;
+    display: flex;
+
 }
 .iner{
-    margin-left: 15px
+    text-align: left;
 }
