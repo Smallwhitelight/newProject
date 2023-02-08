@@ -38,19 +38,16 @@ patrat3R.addEventListener('click', () => {
     patrat3R.style.backgroundColor = 'lightpink';
 
     body1.append(squareCenter);
-
-    const miniSquare = document.createElement('div');
-
-    miniSquare.classList.add('mini');
-    squareCenter.append(miniSquare);
-
-    miniSquare.style.backgroundColor = bgColor;
-    miniSquare.style.top = `${top}px`;
-    miniSquare.style.left = `${left}px`;
-
-    a = top - 20
-    b = left + 30
-
+    if(top <= 650 && left <= 650) {
+        const miniSquare = document.createElement('div');
+        miniSquare.classList.add('mini');
+        squareCenter.append(miniSquare);
+        miniSquare.style.backgroundColor = bgColor;
+        miniSquare.style.top = `${top}px`;
+        miniSquare.style.left = `${left}px`;
+        a = top + 25
+        b = left + 25
+    }
   /*  if (miniSquare.style.width !== squareCenter.style.width) {
         miniSquare.style.display = 'block'
     }*/
